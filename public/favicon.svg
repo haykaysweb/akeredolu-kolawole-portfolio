@@ -1,0 +1,7 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define the background square with rounded corners and your green color #10b981 -->
+  <rect width="512" height="512" rx="40" fill="#10b981"/>
+  
+  <!-- "AK" Typography: White, bold, modern, sans-serif, precisely centered -->
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="280" fill="white">AK</text>
+</svg>

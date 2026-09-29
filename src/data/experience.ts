@@ -1,0 +1,97 @@
+import type { ExperienceItem } from '@/types';
+
+export const experience: ExperienceItem[] = [
+  {
+    id: 'agrokeep-co-founder',
+    role: 'Co-Founder & Full-Stack Developer',
+    company: 'AgroKeep',
+    startDate: '2026',
+    endDate: 'Present',
+    description: 'Developing an agricultural storage platform connecting farmers with verified storage hubs.',
+    achievements: [
+      'Collaborating with co-founders to build and scale core platform features from the ground up.',
+      'Implementing interactive maps, location/crop filters, and multi-step booking wizards using React and Framer Motion.',
+      'Designing robust backend workflows to handle user authentication, storage reservations, and profile management.',
+    ],
+    type: 'work',
+  },
+  {
+    id: 'full-stack-developer-capstone',
+    role: 'Full Stack Developer (Capstone)',
+    company: 'Tech Studio Academy',
+    startDate: '2025',
+    endDate: '2025',
+    description: 'Engineered the "Laundry Wash" application as a solo capstone project.',
+    achievements: [
+      'Engineered the "Laundry Wash" application as a solo capstone project',
+      'Handled end-to-end features from UI implementation to backend API integration',
+      'Ensured responsive design and smooth user experience across varying device sizes',
+    ],
+    type: 'work',
+  },
+  {
+    id: 'full-stack-developer-collab',
+    role: 'Full-Stack Developer (Collaborative Project)',
+    company: 'Tech Studio Academy Internships',
+    startDate: '2025',
+    endDate: '2026',
+    description: 'Collaborated with intern colleagues to architect and build "Miles Car Rentals".',
+    achievements: [
+      'Collaborated with intern colleagues to architect and build "Miles Car.',
+      'Integrated full-stack features including user dashboard interactions, listing management, and backend database connectivity.',
+      'Practiced Git version control, resolved merge conflicts, and maintained consistent agile team workflows.',
+    ],
+    type: 'work',
+  },
+  {
+    id: 'task-duty-virtual-phase',
+    role: 'Full-Stack Developer (Virtual Phase)',
+    company: 'Tech Studio Academy',
+    startDate: '2025',
+    endDate: '2025',
+    description: 'Built "Task Duty" as part of the initial virtual collaborative phase prior to physical internship placement.',
+    achievements: [
+      'Developed "Task Duty" featuring task creation, tag classification, search filtering, and state management.',
+      'Collaborated with peers during the virtual phase to build functional, component-driven web applications.',
+      'Implemented clean user interfaces and CRUD functionality using React, Tailwind CSS, and TanStack Query.',
+    ],
+    type: 'work',
+  },
+  {
+    id: 'degree-education',
+    role: 'Bachelor of Arts in Linguistics and Nigerian Languages',
+    company: 'Ekiti State University, Ado-Ekiti, Nigeria',
+    startDate: '2020',
+    endDate: 'February 2025',
+    description: 'Degree Classification: Second Class Upper (2:1)',
+    achievements: [
+      'Graduated with Second Class Upper (2:1) classification in February 2025.',
+      'Completed academic coursework focused on linguistics and Nigerian languages',
+    ],
+    type: 'education',
+  },
+  {
+    id: 'nysc-service',
+    role: 'National Youth Service Corps (NYSC)',
+    company: 'Nigeria',
+    startDate: '2025',
+    endDate: '2026',
+    description: 'Completed the mandatory national youth service program.',
+    achievements: [
+      'Successfully fulfilled national service obligations from 2025 to 2026',
+    ],
+    type: 'education',
+  },
+  {
+    id: 'tech-studio-certification',
+    role: 'JavaScript Full Stack Web Development',
+    company: 'Tech Studio Academy',
+    startDate: 'January 2026',
+    endDate: 'January 2026',
+    description: 'Intensive practical training in full-stack web development technologies.',
+    achievements: [
+      'Completed comprehensive full-stack curriculum covering frontend, backend, and database architecture.',
+    ],
+    type: 'education',
+  },
+];
