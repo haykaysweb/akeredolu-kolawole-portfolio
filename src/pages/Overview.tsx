@@ -52,7 +52,7 @@ export function Overview() {
     <div className="mx-auto max-w-7xl space-y-6">
       {/* Hero */}
       <Card className="relative overflow-hidden p-6 lg:p-8">
-        <div className="absolute top-0 right-0 h-72 w-72 -translate-y-1/2 translate-x-1/4 rounded-full bg-accent/10 blur-3xl" />
+        <div className="absolute top-0 right-0 hidden h-72 w-72 -translate-y-1/2 translate-x-1/4 rounded-full bg-accent/10 blur-3xl md:block" />
         <div className="relative">
           <p className="mb-2 text-sm font-medium text-accent">Welcome to my dashboard</p>
           <h2 className="mb-1 text-2xl font-bold text-foreground lg:text-3xl">I'm {personal.name}</h2>

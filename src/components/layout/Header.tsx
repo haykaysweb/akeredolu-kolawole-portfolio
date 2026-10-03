@@ -104,7 +104,7 @@ export function Header({ onOpenSidebar }: HeaderProps) {
   const showDropdown = open && query.trim().length > 0;
 
   return (
-    <header className="sticky top-0 z-30 border-b border-line bg-bg/80 backdrop-blur-xl">
+    <header className="sticky top-0 z-30 border-b border-line bg-bg/95 lg:bg-bg/80 lg:backdrop-blur-xl">
       <div className="flex h-16 items-center gap-3 px-4 lg:px-6">
         <button
           onClick={onOpenSidebar}
