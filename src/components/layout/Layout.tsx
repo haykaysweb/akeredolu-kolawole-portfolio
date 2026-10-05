@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useLocation, useOutlet } from 'react-router-dom';
 import { AnimatePresence, MotionConfig, motion } from 'framer-motion';
 import { Sidebar } from './Sidebar';
@@ -10,8 +10,14 @@ export function Layout() {
   const { pathname } = useLocation();
   const outlet = useOutlet();
   const { settings } = useSettings();
+  const isFirstRender = useRef(true);
 
+  // Scroll to top on route changes only, not on the initial load
   useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
     window.scrollTo(0, 0);
   }, [pathname]);
 
@@ -21,7 +27,7 @@ export function Layout() {
         <Sidebar mobileOpen={mobileOpen} onCloseMobile={() => setMobileOpen(false)} />
         <div className="flex min-w-0 flex-1 flex-col">
           <Header onOpenSidebar={() => setMobileOpen(true)} />
-          <main className="flex-1 overflow-x-hidden p-4 lg:p-6">
+          <main className="flex-1 overflow-x-clip p-4 lg:p-6">
             <AnimatePresence mode="wait">
               <motion.div
                 key={pathname}

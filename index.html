@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="dark" data-font-size="sm">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -25,6 +25,8 @@
             "--c-accent",
             s.accentColor,
           );
+        if (s.fontSize)
+          document.documentElement.setAttribute("data-font-size", s.fontSize);
       } catch (e) {}
     </script>
   </head>

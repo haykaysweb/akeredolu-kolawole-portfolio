@@ -9,7 +9,7 @@ export const defaultSettings: Settings = {
   glowEnabled: true,
   reduceAnimations: false,
   sidebarCollapsed: false,
-  fontSize: 'md',
+  fontSize: 'sm',
 };
 
 export const accentPresets = [
