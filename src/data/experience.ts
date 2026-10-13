@@ -2,6 +2,21 @@ import type { ExperienceItem } from '@/types';
 
 export const experience: ExperienceItem[] = [
   {
+    id: 'noir-and-co-personal-project',
+    role: 'Full-Stack Developer (Personal Project)',
+    company: 'NOIR & CO, self-directed',
+    startDate: 'October 2026',
+    endDate: 'October 2026',
+    description: 'Built and deployed a full-stack online store to learn Next.js and PostgreSQL.',
+    achievements: [
+      'Built the store with Next.js 16 (App Router), TypeScript and Tailwind CSS v4, using server components by default and client components only where state or events are needed.',
+      'Added server-side validation with Zod and Server Actions, saving orders, contact messages and newsletter signups to PostgreSQL through Prisma.',
+      'Kept prices out of the browser: the cart stores only ids and quantities, and the server looks up the real prices at checkout.',
+      'Deployed the project to Vercel with environment variables and a Neon-hosted database.',
+    ],
+    type: 'work',
+  },
+  {
     id: 'agrokeep-co-founder',
     role: 'Co-Founder & Full-Stack Developer',
     company: 'AgroKeep',
@@ -23,9 +38,9 @@ export const experience: ExperienceItem[] = [
     endDate: '2025',
     description: 'Engineered the "Laundry Wash" application as a solo capstone project.',
     achievements: [
-      'Engineered the "Laundry Wash" application as a solo capstone project',
-      'Handled end-to-end features from UI implementation to backend API integration',
-      'Ensured responsive design and smooth user experience across varying device sizes',
+      'Handled end-to-end features from UI implementation to backend API integration.',
+      'Built the booking flow, authentication and admin dashboard with React, Node.js, Express and MongoDB.',
+      'Ensured responsive design and smooth user experience across varying device sizes.',
     ],
     type: 'work',
   },
@@ -37,7 +52,7 @@ export const experience: ExperienceItem[] = [
     endDate: '2026',
     description: 'Collaborated with intern colleagues to architect and build "Miles Car Rentals".',
     achievements: [
-      'Collaborated with intern colleagues to architect and build "Miles Car.',
+      'Collaborated with intern colleagues to architect and build "Miles Car Rentals".',
       'Integrated full-stack features including user dashboard interactions, listing management, and backend database connectivity.',
       'Practiced Git version control, resolved merge conflicts, and maintained consistent agile team workflows.',
     ],

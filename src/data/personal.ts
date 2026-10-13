@@ -2,11 +2,11 @@ import { Calendar, Cpu, FolderGit2 } from "lucide-react";
 import type { PersonalInfo } from "@/types";
 
 export const personal: PersonalInfo = {
-  name: "Akeredolu Kolawole O.",
+  name: "Akeredolu Kolawole Olaoluwa.",
   title: "Full-Stack Web Developer",
-  bio: "Full stack web developer with 2+ years of hands-on experience designing, developing, and maintaining modern, data-driven web applications using JavaScript, TypeScript, React, Node.js, Express.js, and MongoDB.",
+  bio: "Full stack web developer with 2+ years of hands-on experience designing, developing, and maintaining modern, data-driven web applications using JavaScript, TypeScript, React, Next.js, Node.js, Express.js, MongoDB, and PostgreSQL.",
   longBio:
-    "I am a full stack web developer with over two years of practical experience designing, developing, and maintaining modern web applications. My technical journey includes building robust, end to end platforms like the Laundry Wash service app and Task Duty, as well as collaborating with engineering teams on projects like the Miles Car Rental platform during my internship at Tech Studio Academy. I specialize in bridging frontend and backend systems writing clean JavaScript and TypeScript logic, building responsive interfaces with React, Tailwind CSS, DaisyUI, and Framer Motion, and structuring reliable RESTful APIs with Node.js, Express.js, and Mongoose for MongoDB under the hood. Driven by a commitment to component-based architecture, database management with Mongoose, version control with Git/GitHub, and modern UI practices, I focus on delivering scalable, high-performance applications that provide seamless user experiences.",
+    "I am a full stack web developer with over two years of practical experience designing, developing, and maintaining modern web applications. My technical journey includes building end to end platforms like the Laundry Wash service app and Task Duty, collaborating with engineering teams on projects like the Miles Car Rental platform during my internship at Tech Studio Academy, and co-founding AgroKeep, an agricultural storage platform. Most recently I built NOIR & CO, an online store made with Next.js, where forms are validated on the server with Zod and Server Actions and saved to PostgreSQL through Prisma. I specialize in bridging frontend and backend systems, writing clean JavaScript and TypeScript logic, building responsive interfaces with React, Next.js, Tailwind CSS, DaisyUI, and Framer Motion, and structuring reliable RESTful APIs with Node.js and Express.js, with MongoDB (Mongoose) and PostgreSQL (Prisma) for data. Driven by a commitment to component-based architecture, database management, version control with Git/GitHub, and modern UI practices, I focus on delivering scalable, high-performance applications that provide seamless user experiences.",
   location: "Lagos, Nigeria",
   email: "Akeredolukolawoleolaoluwa100@gmail.com",
   phone: "+234 070 6154 3959",
@@ -38,7 +38,7 @@ export const personal: PersonalInfo = {
     {
       id: "technologies",
       label: "Technologies",
-      value: 10,
+      value: 15,
       suffix: "+",
       icon: Cpu,
     },
@@ -47,7 +47,7 @@ export const personal: PersonalInfo = {
     { year: "2021", projects: 1 },
     { year: "2024", projects: 1 },
     { year: "2025", projects: 1 },
-    { year: "2026", projects: 3 },
+    { year: "2026", projects: 4 },
   ],
   skillRadarData: [
     { category: "Frontend", proficiency: 98 },

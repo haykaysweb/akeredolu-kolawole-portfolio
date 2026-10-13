@@ -6,7 +6,7 @@ export const services: Service[] = [
     id: 'fullstack',
     title: 'Full-Stack Web Development',
     description:
-      'End-to-end web applications from database architecture to deployment, built with React, Node.js, Express, and MongoDB.',
+      'End-to-end web applications from database architecture to deployment, built with React, Node.js, Express, MongoDB and PostgreSQL.',
     icon: CodeXml,
     features: [
       'Full-stack architecture and feature implementation',
@@ -32,7 +32,7 @@ export const services: Service[] = [
     id: 'api-design',
     title: 'API & Database Design',
     description:
-      'Robust, well-documented backend services and efficient database schemas built with Node.js, Express.js, and MongoDB/Mongoose.',
+      'Robust, well documented backend services and efficient database schemas built with Node.js, Express.js, and MongoDB/Mongoose.',
     icon: Database,
     features: [
       'RESTful API design and route handling',

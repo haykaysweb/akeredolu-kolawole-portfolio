@@ -2,6 +2,29 @@ import type { Project } from "@/types";
 
 export const projects: Project[] = [
   {
+    id: "Noir-And-Co",
+    title: "NOIR & CO",
+    image:
+      "https://res.cloudinary.com/dw5bai7mk/image/upload/v1791929667/noir_ugbng0.png",
+    description:
+      "Online store for clothes, bags and watches with filtering, a persistent cart, and checkout, contact and newsletter forms validated on the server and saved to PostgreSQL.",
+    longDescription:
+      "A full stack e-commerce store I built to learn Next.js. Visitors can browse by category, filter by price, size and color, and share filtered pages through the URL. The cart and wishlist survive a page refresh, and the cart only stores product ids and quantities, so the server looks up the real prices at checkout. Checkout, contact and newsletter forms are validated with Zod inside Next.js Server Actions and saved to PostgreSQL through Prisma. Most of the app runs as server components, with client components only where state or click handlers are needed. Payments are not connected, so the checkout is a demo.",
+    category: "Full-Stack",
+    tech: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Prisma",
+      "Zod",
+    ],
+    liveUrl: "https://noir-and-co-store.vercel.app",
+    githubUrl: "https://github.com/haykaysweb/noir-and-co",
+    featured: true,
+  },
+  {
     id: "MilesCar-Rentals",
     title: "Miles Car Rental",
     image:
@@ -51,6 +74,8 @@ export const projects: Project[] = [
     tech: [
       "React",
       "TypeScript",
+      "TanStack Query",
+      "Axios",
       "Node.js",
       "Express.js",
       "MongoDB",
@@ -69,11 +94,12 @@ export const projects: Project[] = [
     description:
       "A feature rich task management and productivity application designed to help organize daily workflows and prioritize tasks.",
     longDescription:
-      "Task Duty is a highly efficient, task management and productivity application designed to help individuals and teams organize their daily workflows. Built with a clean, intuitive user interface, it allows users to seamlessly create, track, manage, and prioritize tasks from inception to completion. Features robust task creation, tag classification, search filtering, and state synchronization using React and Tailwind CSS.",
+      "Task Duty is a highly efficient, task management and productivity application designed to help individuals and teams organize their daily workflows. Built with a clean, intuitive user interface, it allows users to seamlessly create, track, manage, and prioritize tasks from inception to completion. Features robust task creation, tag classification, search filtering, and state synchronization using React, TanStack Query and Tailwind CSS.",
     category: "Web App",
     tech: [
       "React",
       "Javascript",
+      "TanStack Query",
       "MongoDb",
       "Tailwind",
       "Node.js",
