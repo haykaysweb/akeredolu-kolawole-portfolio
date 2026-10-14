@@ -67,9 +67,9 @@ export const projects: Project[] = [
     image:
       "https://res.cloudinary.com/dw5bai7mk/image/upload/v1786973444/Screenshot_2026-08-17_063004_ibrjqv.jpg",
     description:
-      "Agricultural storage platform connecting farmers with verified storage hubs featuring location filters and interactive booking wizards.",
+      "Agricultural storage platform connecting farmers.",
     longDescription:
-      "An ongoing full stack agricultural storage platform designed to connect farmers with verified storage hubs in Southwest Nigeria. It features location and crop filters, interactive maps, storage hub reservation summary modals, responsive tables, multi step booking wizards, and user profile management. Built with smooth, animated web interfaces powered by Framer Motion, alongside a robust React and Node.js backend.",
+      "Developed a full-stack platform featuring custom search filtering, interactive map views, and booking workflows. Handled the frontend with React and Tailwind CSS while building Node.js backend endpoints for user data and state management.",
     category: "Full-Stack",
     tech: [
       "React",
