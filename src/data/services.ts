@@ -6,24 +6,24 @@ export const services: Service[] = [
     id: 'fullstack',
     title: 'Full-Stack Web Development',
     description:
-      'End-to-end web applications from database architecture to deployment, built with React, Node.js, Express, MongoDB and PostgreSQL.',
+      'End-to-end web applications from database architecture to deployment, built with React, Next.js, Node.js, Express, and MongoDB or PostgreSQL.',
     icon: CodeXml,
     features: [
       'Full-stack architecture and feature implementation',
       'Secure authentication and session management',
       'RESTful API development and database connectivity',
-      'Production deployment and integration setup',
+      'Production deployment on Vercel with environment and database setup',
     ],
   },
   {
     id: 'frontend',
     title: 'Frontend & UI Development',
     description:
-      'Fast, accessible, and responsive user interfaces built with React, TypeScript, Tailwind CSS, and smooth Framer Motion animations.',
+      'Fast, accessible, and responsive user interfaces built with React, Next.js, TypeScript, Tailwind CSS, and smooth Framer Motion animations.',
     icon: Monitor,
     features: [
       'Responsive design across all devices',
-      'Dynamic component development with React and TypeScript',
+      'Dynamic component development with React, Next.js and TypeScript',
       'Fluid UI animations using Framer Motion',
       'State management with TanStack Query and Context API',
     ],
@@ -32,13 +32,13 @@ export const services: Service[] = [
     id: 'api-design',
     title: 'API & Database Design',
     description:
-      'Robust, well documented backend services and efficient database schemas built with Node.js, Express.js, and MongoDB/Mongoose.',
+      'Robust backend services and efficient database schemas built with Node.js, Express.js, MongoDB/Mongoose, and PostgreSQL with Prisma.',
     icon: Database,
     features: [
       'RESTful API design and route handling',
-      'Optimized MongoDB schema design and indexing',
-      'JWT authentication and security middleware',
-      'CORS configuration and error handling',
+      'MongoDB schema design and relational PostgreSQL tables with Prisma',
+      'Server-side validation with Zod, including Next.js Server Actions',
+      'JWT authentication, CORS configuration and error handling',
     ],
   },
   {
@@ -58,13 +58,13 @@ export const services: Service[] = [
     id: 'performance',
     title: 'Performance & Optimization',
     description:
-      'Auditing and refining web applications for lightning-fast load times, clean code maintainability, and optimal user experience.',
+      'Auditing and refining web applications for fast load times, clean code maintainability, and a smooth user experience.',
     icon: Gauge,
     features: [
       'Codebase refactoring and clean code standards',
+      'Server components and image optimization with Next.js',
       'Asynchronous data fetching and state optimization',
-      'Bug fixing and cross-browser testing',
-      'Version control management with Git workflows',
+      'Bug fixing, cross-browser testing and Git workflows',
     ],
   },
 ];
